@@ -1,0 +1,605 @@
+.hr1{
+    margin: 0;
+    position: relative;
+    bottom: 4.5px;
+}
+
+nav{
+    width: 100%;
+    background-color: #181823;
+}
+body{
+    margin: 0;
+    
+}
+.lista1{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    list-style: none;
+    gap: 20px;
+    
+}
+a{
+    color: white;
+}
+.imagen1{
+    width: 100%;
+    height: 192px;
+}
+.menubar{
+    display: none;
+}
+.school{
+    display: flex;
+    justify-content: center;
+    
+    color: #00425A;
+    font-size: 1.688rem;
+}
+.imagen2{
+    width: 100%;
+    height: 18.75rem;
+}
+.quienes{
+    position: relative;
+    bottom: -8px;
+    text-align: center;
+    font-size: 2rem;
+    color: #1F8A70 ;
+}
+.section2{
+   background-color: #EFF5F5;
+   
+   position: relative;
+   bottom: 30px;
+}
+.pq{
+
+    text-align: center;
+    font-size: 2rem;
+    color: #1F8A70 ;
+}
+.imagen3{
+    width: 100%;
+    height: 18.75rem;
+}
+.section3{
+    background-color: #EFF5F5;
+    position: relative;
+    bottom: 57px;
+}
+
+.propuesta{
+    font-size: 2rem;
+    color: #1F8A70 ;
+    text-align: center;
+}
+.figura1{
+    
+    width: 50px;
+    height: 50px;
+    background: #FC7300;
+    border-radius: 100%;
+    
+}
+.figura2{
+    
+    width: 50px;
+    height: 50px;
+    background: #FC7300;
+    border-radius: 100%;
+    left : 340px;
+    bottom: 50px;
+}
+.figura3{
+    
+    width: 50px;
+    height: 50px;
+    background: #FC7300;
+    border-radius: 100%;
+    top: 25px;
+    
+}
+.figura4{
+    width: 50px;
+    height: 50px;
+    background: #FC7300;
+    border-radius: 100%;
+    bottom: 25px;
+    
+}
+.p1{
+    position: relative;
+    bottom: 20px;
+    font-size: 1.2rem ;
+    left: -120px;
+}
+.p2{
+    position: relative;
+    bottom: 25px;
+    font-size: 1.2rem;
+    left: -60px;
+
+}
+.p3{
+    position: relative;
+    bottom: 25px;
+    left: -50px;
+    font-size: 1.2rem;
+}
+.p4{
+    position: relative;
+    bottom: 25px;
+    left: -80px;
+    font-size: 1.2rem;
+}
+.section4{
+    background-color: #EFF5F5;
+    position: relative;
+    bottom: 84px;
+}
+.noticias{
+    font-size: 2rem;
+    color: #1F8A70 ;
+    text-align: center;
+}
+.section5{
+    background-color: #EFF5F5;
+    position: relative;
+    bottom: 110px;
+    
+}
+h2{
+    color: #00425A;
+}
+.imagen4{
+    width: 30px;
+    height: 30px;
+}
+.span1{
+    position: relative;
+    bottom: 8px;
+}
+.imagen5{
+    width: 30px;
+    height: 30px;
+}
+.span2{
+    position: relative;
+    bottom: 8px;
+}
+.imagen6{
+    width: 30px;
+    height: 30px;
+}
+.span3{
+    position: relative;
+    bottom: 8px;
+}
+.iframe2{
+    display: flex;
+    justify-content: center;
+}
+.iframe{
+    width: 350px;
+    height: 350px;
+    
+    
+}   
+.figuritas1{
+    position: relative;
+    left: 110px;
+}
+.figuritas2{
+    position: relative;
+    left: 70px;
+}
+.figuras{
+    display: flex;
+   align-items: center;
+}
+footer{
+    background-color: #00425A;
+    color: #EFF5F5;
+    position: relative;
+    bottom: 132.1px;
+}
+@media (min-width: 320px){
+    
+    .lista1{
+        justify-content: space-evenly;
+        height: 2.188rem;
+        align-items: center;
+    }
+    .figuras{
+        display: flex;
+      flex-direction: column;
+      
+    }
+    .redes{
+        text-align: center;
+        font-size: 2rem;
+    }
+}
+
+
+
+@media (min-width: 768px){
+    .imagen1{
+        height: 300px;
+    }
+    .school{
+        font-size: 3rem;
+        position: absolute;
+        left: 240px;
+        bottom: 60px;
+    }
+    .imagen2{
+    width: 50%;
+        height: 200px;
+       display: flex;
+       justify-content: right;
+        
+        
+        
+    }
+   
+    .somos{
+        position: relative;
+        bottom: 220px;
+        right: -20px;  
+     height: 200px;
+        font-size: 1.1rem;
+        width: 50%;     
+    }
+    .somos2{
+display: flex;
+justify-content: right;
+    }
+    .quienes{
+        font-size: 3rem;
+    }
+    .pq{
+        font-size: 3rem;
+    }
+    .propuesta{
+        font-size: 3rem;
+    }
+    .section2{
+        position: relative;
+        bottom: 44px;
+        height: 350px;
+    }
+   .hr2{
+    position: relative;
+    bottom: 190px;
+   }
+   .section3{
+    position: relative;
+    bottom: 82.5px;
+   }
+   .imagen3{
+    width: 50%;
+    height: 200px;
+   }
+   .nuestra{
+    font-size: 1.1rem;
+   }
+   .en{
+    display: flex;
+    justify-content: right;
+   }
+   .untref{
+    width: 50%;
+    position: relative;
+    left: 10px;
+    bottom: 220px;
+    font-size: 1.1rem;
+   }
+   .section3{
+    height: 320px;
+   }
+.hr3{
+    position: relative;
+    bottom: 230px;
+
+}
+.section4{
+    position: relative;
+    bottom: 119px;
+    height: 360px;
+}
+.figuras{
+    font-size: 1.1rem;
+}
+ .figuritas1{
+    position: relative;
+    left: 90px;
+    display: flex;
+    
+  justify-content: center;
+ }
+ .figura1{
+    position: relative;
+    top: 3px;
+ }
+ .p1{
+    position: relative;
+    top: 30px;
+    left: -170px;
+ }
+ .p2{
+    position: relative;
+    top: 30px;
+    left: -105px;
+ }
+ .figuritas2{
+display: flex;
+justify-content: center;
+position: relative;
+left: 90px;
+gap: 25px;
+ }
+ .figura4{
+    position: relative;
+    top: -2px;
+    left: 70px;
+ }
+ .p3{
+   position: relative;
+   top: 28px;
+   left: -120px;
+ }
+ .p4{
+    position: relative;
+    bottom: -27px;
+    left: -88px;
+ }
+ .hr4{
+    position: relative;
+    bottom: -6px;
+ }
+ .section5{
+    position: relative;
+    bottom: 159px;
+ }
+ .noticias{
+    font-size: 3rem;
+ }
+ h2{
+    font-size: 1.5rem;
+ }
+ .los{
+    font-size: 1.1rem;
+    
+ }
+ .noticias22{
+    display: flex;
+ }
+ .noticia11{
+    position: relative;
+    top: 28px;
+ }
+ .imagen4{
+    width: 50px;
+    height: 50px;
+ }
+ .imagen5{
+    width: 50px;
+    height: 50px;
+ }
+ .imagen6{
+    width: 50px;
+    height: 50px;
+ }
+ .span1{
+    font-size: 1.1rem;
+ }
+ .span2{
+    font-size: 1.1rem;
+ }
+ .span3{
+    font-size: 1.1rem;
+ }
+ .instituto{
+    font-size: 1.5rem;
+ }
+.iframe{
+    width: 450px;
+    height: 450px;
+}
+.contacto{
+    font-size: 1.5rem;
+}
+.formu{
+    font-size: 1.1rem;
+}
+footer{
+    position: relative;
+    bottom: 179px;
+}
+}
+@media (min-width: 1280px){
+    .school{
+        font-size: 5rem;
+        position: relative;
+        bottom: 400px;
+        left: 0px;
+        display: flex;
+        justify-content: center;
+        
+        
+    }
+    .imagen1{
+        height: 550px;
+    }
+ .section2{
+    position: relative;
+    bottom: 268px;
+    height: 600px;
+ }
+ .hr1{
+position: relative;
+bottom: 227px;
+ }
+ .quienes{
+    font-size: 3rem;
+ }
+ .imagen2{
+    height: 450px;
+    width: 45%;
+}
+.somos{
+font-size: 2rem;
+position: relative;
+}
+.somos2{
+    position: relative;
+    bottom: 260px;
+    right: 60px;
+}
+.hr2{
+    position: relative;
+    bottom: 218px;
+}
+.section3{
+    position: relative;
+    bottom: 306px;
+    height: 600px;
+}
+.imagen3{
+    height: 450px;
+    width: 45%;
+}
+.untref{
+font-size: 2rem;
+}
+.en{
+    position: relative;
+    bottom: 260px;
+    right: 60px;
+}
+.hr3{
+position: relative;
+    bottom:430px ;
+}
+.section4{
+    position: relative;
+    bottom: 345px;
+    height: 525px;
+}
+.propuesta{
+    font-size: 3rem;
+}
+.nuestra{
+    font-size: 2rem;
+}
+.figura1{
+    width: 100px;
+    height: 100px;
+}
+.figura2{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    bottom:5px;
+    left: -20px;
+}
+.figura3{
+    width: 100px;
+    height: 100px;
+    position: relative;
+    left: -10px;
+    top: -5px;
+}
+.figura4{
+    width: 100px;
+    height: 100px;
+    position: relative;
+   top: -10px;    
+}
+.p1{
+    font-size: 1.5rem;
+    position: relative;
+    top: 75px;
+    left: -225px;
+}
+.p2{
+    font-size: 1.5rem;
+    position: relative;
+    top: 72px;
+    left: -157px;
+}
+.p3{
+    font-size: 1.5rem;
+    position: relative;
+    top: 70px;
+    left: -170px;
+}
+.p4{
+    font-size: 1.5rem;
+    position: relative;
+    top: 68px;
+    left: -130px;
+}
+.hr4{
+    position: relative;
+    top: 55px;
+}
+.section5{
+    position: relative;
+    bottom: 381px;
+    height: 500px;
+}
+.hr5{
+    position: relative;
+    top: 40px;
+}
+.noticias{
+    font-size: 3rem;
+}
+h2{
+    font-size: 2.5rem;
+}
+.los{
+    font-size: 2rem;
+}
+.noticia11{
+    position: relative;
+    top:-0000.1px;
+}
+footer{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    position: relative;
+    bottom: 463px;
+}
+.redess{
+    flex-direction: column;
+}
+.ubicacion{
+    justify-content: center;
+    flex-direction: column;
+}
+.contactos{
+    justify-content: right;
+    flex-direction: column;
+}
+.instituto{
+    font-size: 2rem;
+}
+.contacto{
+    font-size: 2rem;
+}
+.formu{
+    font-size: 1.5rem;
+}
+.nave{
+    height: 100px;
+}
+ }
+
+
+/* COLORES: FC7300- 1F8A70 - 00425A - 181823 - EFF5F5 /*
