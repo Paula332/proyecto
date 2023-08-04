@@ -1,0 +1,403 @@
+
+@media (min-width: 320px){
+    textarea{
+        max-width: 300px;
+    }
+}
+.form{
+  display: flex;
+  width: 100%;
+  
+}
+body{
+    background-color: #EFF5F5;
+}
+.formularioo{
+    width: 100%;
+
+}
+.numero{
+    position: relative;
+    left: -27px;
+}
+.lugar{
+    position: relative;
+    left: -10px;
+}
+h2{
+    display: flex;
+    justify-content: center;
+    font-size: 2rem;
+    position: relative;
+    left: -20px;
+}
+textarea{
+    
+    position: relative;
+    left: 15px;
+    
+}
+.textarea{
+    
+    display: flex;
+   justify-content: center;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.campo{
+    margin-left: 30px;
+   max-width: 300px;
+   
+}
+.nyg{
+    position: relative;
+    left: 50px;
+    margin-top: 20px;
+}
+.info{
+    position: relative;
+    left: 20px;
+}
+
+.form{
+    width: 100%;
+    
+    margin: auto;
+   display: flex;
+   flex-direction: column;
+
+    margin-top: 90px;
+}
+.lugar{
+    display: flex;
+    justify-content: center;
+}
+.numero{
+    display: flex;
+    justify-content: center;
+}
+.gmail{
+    display: flex;
+    justify-content: center;
+}
+.img1{
+    
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -100px;
+    bottom: -47px;
+}
+.img2{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -100px;
+    bottom: -49px;
+    
+}
+.img3{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    left: -100px;
+    bottom: -51px;
+    
+
+    
+}
+.form h2{
+    margin-bottom: 15px;
+ 
+    
+}
+form p{
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.form form .campo, textarea{
+    width: 100%;
+    padding: 15px 10px;
+    border: 1px solid #181823;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.form form textarea{
+    max-width: 530px;
+    min-width: 530px;
+    min-height: 140px;
+    max-height: 150px;
+}
+.enviar{
+    padding: 15px;
+    border: none;
+    outline: 0px;
+    background-color: #1F8A70;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.botones{
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+}
+.resetear{
+    padding: 15px;
+    border: none;
+    outline: 0px;
+    background-color: #00425A;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.imagen1{
+    width: 15px;
+    height: 15px;
+    
+}
+.imagen2{
+    width: 15px;
+    height: 15px;
+
+}
+.imagen3{
+    width: 15px;
+    height: 15px;
+    
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@media (min-width: 768px){
+    textarea{
+        max-width: 300px;
+    }
+    .imagen1{
+        width: 20px;
+        height: 20px;
+    }
+    .imagen2{
+        width: 20px;
+        height: 20px;
+    }
+    .imagen3{
+        width: 20px;
+        height: 20px;
+    }
+    .form h2{
+        margin-bottom: 15px;
+        
+    }
+    form p{
+        line-height: 1.6;
+    }
+    body{
+        background-color: EFF5F5;
+    }
+    .form form .campo, textarea{
+        width: 100%;
+        padding: 15px 10px;
+        border: 1px solid #181823;
+        margin-bottom: 20px;
+        border-radius: 3px;
+        outline: 0px;
+    }
+    .form form textarea{
+        max-width: 530px;
+        min-width: 530px;
+        min-height: 140px;
+        max-height: 150px;
+    }
+    .enviar{
+        padding: 15px;
+        border: none;
+        outline: 0px;
+        background-color: #1F8A70;
+        color: white;
+        border-radius: 3px;
+        cursor: pointer;
+        transition: all 300ms ease;
+    }
+    .campo{
+        position: relative;
+
+    }
+    .textarea{
+        position: relative;
+        bottom: -100px;
+    }
+    .botones{
+        position: relative;
+        bottom: -100px;
+    }
+    .nyg{
+        position: relative;
+        bottom: 50px;
+        left: 170px;
+        display: flex;
+        flex-direction: column;
+        width: 300px;
+    }
+    .tyb{
+        position: relative;
+        bottom:150px;
+        left: 185px;
+    }
+    .info{
+    position: relative;
+    bottom: -130px;
+    left: -150px;
+    }
+    h2{
+        font-size: 2.5rem;
+    }
+    .cosas{
+        font-size: 1.2rem;
+        position: relative;
+        left: 20px;
+    }
+    .numero{
+        position: relative;
+        left: -30px;
+    }
+    .img1{
+        position: relative;
+        bottom:-63px;
+        
+    }
+    .img2{
+        position: relative;
+        bottom: -63px;
+    }
+    .img3{
+        position: relative;
+        bottom: -63px;
+    }
+}
+@media (min-width: 1280px){
+    .imagen1{
+        width: 25px;
+        height: 25px;
+    }
+    .imagen2{
+        width: 25px;
+        height: 25px;
+    }
+    .imagen3{
+        width: 25px;
+        height: 25px;
+    }
+.form{
+    width: 100%;
+    
+    margin: auto;
+   
+}
+.form h2{
+    margin-bottom: 15px;
+    
+}
+form p{
+    line-height: 1.6;
+}
+body{
+    background-color: #EFF5F5;
+}
+.form form .campo, textarea{
+    padding: 15px 10px;
+    border: 1px solid #181823;
+    margin-bottom: 20px;
+    border-radius: 3px;
+    outline: 0px;
+}
+.form form textarea{
+   min-width: 500px;
+   width: 500px;
+}
+.enviar{
+    padding: 15px;
+    border: none;
+    outline: 0px;
+    background-color: #1F8A70;
+    color: white;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: all 300ms ease;
+}
+.campo{
+    position: relative;
+    width: 500px;
+}
+.tyb{
+    position: relative;
+    bottom:150px;
+    left: 185px;
+}
+.info{
+position: relative;
+bottom: -130px;
+left: -150px;
+}
+h2{
+    font-size: 2.5rem;
+}
+
+.cosas{
+    font-size: 1.2rem;
+    position: relative;
+    left: 20px;
+}
+.numero{
+    position: relative;
+    left: -30px;
+}
+.img1{
+    position: relative;
+    bottom:-63px;
+    
+}
+.img2{
+    position: relative;
+    bottom: -63px;
+}
+.img3{
+    position: relative;
+    bottom: -63px;
+}
+.info{
+    position: relative;
+    bottom: -200px;
+    left: -250px;
+}
+h2{
+    font-size: 3rem;
+position: relative;
+left: 15px;
+}
+.cosas{
+    font-size: 1.3rem;
+    position: relative;
+    bottom: 7px;
+    left: 27px;
+}
+.numero{
+    position: relative;
+    left: -35px;
+}
+.gmail{
+    position: relative;
+    left: 3px;
+}
+}
